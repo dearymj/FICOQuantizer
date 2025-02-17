@@ -8,6 +8,7 @@ import pandas as pd
 ###############################################################################
 # 1. DP logic with prefix sums (same approach as before)
 ###############################################################################
+
 def build_prefix_sums_fico(fico):
     n = len(fico)
     prefix_sum = np.zeros(n+1)
